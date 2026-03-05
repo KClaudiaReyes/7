@@ -11,7 +11,7 @@ namespace _7
         static void Main(string[] args)
         {
             Dictionary < int , string > productos = new Dictionary < int , string > ();
-            int     ID = 589;
+            int     ID= 589;
             Console.WriteLine (" ingrese el codigo del producto: ");
             int cod = int.Parse(Console.ReadLine());
 
